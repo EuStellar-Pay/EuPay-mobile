@@ -1,0 +1,6 @@
+import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+const STREAMS = [{id:'STR-001',worker:'Alice M.',rate:'10 XLM/hr',status:'Active'},{id:'STR-002',worker:'Bob K.',rate:'8 XLM/hr',status:'Active'},{id:'STR-003',worker:'Carol J.',rate:'12 XLM/hr',status:'Paused'}];
+export default function StreamsScreen() {
+  return (<View style={styles.container}><Text style={styles.title}>My Streams</Text><FlatList data={STREAMS} keyExtractor={item => item.id} renderItem={({item}) => (<View style={styles.card}><Text style={styles.worker}>{item.worker}</Text><Text style={styles.rate}>{item.rate}</Text><Text style={[styles.status, item.status==='Active'?styles.active:styles.paused]}>{item.status}</Text></View>)} /></View>);
+}
+const styles = StyleSheet.create({ container:{flex:1,backgroundColor:'#0a0a0f',padding:16}, title:{color:'#fff',fontSize:20,fontWeight:'bold',marginBottom:16}, card:{backgroundColor:'#111827',borderRadius:12,padding:16,marginBottom:12,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}, worker:{color:'#fff',fontWeight:'600'}, rate:{color:'#818cf8'}, status:{fontSize:12,fontWeight:'600',paddingHorizontal:8,paddingVertical:3,borderRadius:20}, active:{backgroundColor:'#064e3b',color:'#34d399'}, paused:{backgroundColor:'#78350f',color:'#fbbf24'} });
