@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#0f172a" rx="16"/>
+  <text x="400" y="40" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#6b7280" text-anchor="middle">EuPay Mobile — Screen Preview</text>
+
+  <!-- Phone 1: Home Screen -->
+  <g transform="translate(80, 60)">
+    <!-- Phone frame -->
+    <rect x="0" y="0" width="240" height="480" rx="32" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="10" y="12" width="220" height="456" rx="24" fill="#0a0a0f"/>
+    <!-- Notch -->
+    <rect x="80" y="12" width="80" height="24" rx="12" fill="#1e293b"/>
+    <!-- Status bar -->
+    <text x="30" y="52" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280">9:41</text>
+    <text x="185" y="52" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280">●●●</text>
+
+    <!-- App header -->
+    <text x="120" y="88" font-family="system-ui,sans-serif" font-size="20" font-weight="800" fill="#818cf8" text-anchor="middle">EuPay</text>
+
+    <!-- Balance card -->
+    <rect x="20" y="104" width="200" height="100" rx="16" fill="#1e1b4b"/>
+    <text x="120" y="130" font-family="system-ui,sans-serif" font-size="11" fill="#a5b4fc" text-anchor="middle">Available to Claim</text>
+    <text x="120" y="162" font-family="system-ui,sans-serif" font-size="26" font-weight="800" fill="white" text-anchor="middle">240.50</text>
+    <text x="120" y="182" font-family="system-ui,sans-serif" font-size="12" fill="#818cf8" text-anchor="middle">XLM</text>
+
+    <!-- Claim button -->
+    <rect x="40" y="216" width="160" height="40" rx="12" fill="#4f46e5"/>
+    <text x="120" y="240" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">Claim Earnings</text>
+
+    <!-- Stats row -->
+    <rect x="20" y="268" width="90" height="72" rx="12" fill="#111827"/>
+    <text x="65" y="292" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Streams</text>
+    <text x="65" y="320" font-family="system-ui,sans-serif" font-size="22" font-weight="800" fill="white" text-anchor="middle">3</text>
+
+    <rect x="130" y="268" width="90" height="72" rx="12" fill="#111827"/>
+    <text x="175" y="292" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Rate/hr</text>
+    <text x="175" y="320" font-family="system-ui,sans-serif" font-size="22" font-weight="800" fill="#818cf8" text-anchor="middle">30</text>
+
+    <!-- Recent activity -->
+    <text x="30" y="362" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#e5e7eb">Recent Activity</text>
+    <rect x="20" y="374" width="200" height="36" rx="8" fill="#111827"/>
+    <circle cx="38" cy="392" r="8" fill="#064e3b"/>
+    <text x="38" y="396" font-family="system-ui,sans-serif" font-size="9" fill="#34d399" text-anchor="middle">✓</text>
+    <text x="54" y="388" font-family="system-ui,sans-serif" font-size="10" fill="white">Claimed 50 XLM</text>
+    <text x="54" y="402" font-family="system-ui,sans-serif" font-size="9" fill="#6b7280">2 hours ago</text>
+
+    <rect x="20" y="416" width="200" height="36" rx="8" fill="#111827"/>
+    <circle cx="38" cy="434" r="8" fill="#1e3a5f"/>
+    <text x="38" y="438" font-family="system-ui,sans-serif" font-size="9" fill="#60a5fa" text-anchor="middle">$</text>
+    <text x="54" y="430" font-family="system-ui,sans-serif" font-size="10" fill="white">Stream STR-002 Active</text>
+    <text x="54" y="444" font-family="system-ui,sans-serif" font-size="9" fill="#6b7280">1 day ago</text>
+
+    <!-- Tab bar -->
+    <rect x="10" y="440" width="220" height="28" rx="0" fill="#111827"/>
+    <rect x="10" y="452" width="220" height="16" rx="0" fill="#111827"/>
+    <text x="50" y="468" font-family="system-ui,sans-serif" font-size="10" fill="#818cf8" text-anchor="middle">Home</text>
+    <text x="120" y="468" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Streams</text>
+    <text x="190" y="468" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Profile</text>
+
+    <text x="120" y="540" font-family="system-ui,sans-serif" font-size="12" fill="#4b5563" text-anchor="middle">Home Screen</text>
+  </g>
+
+  <!-- Phone 2: Streams Screen -->
+  <g transform="translate(480, 60)">
+    <!-- Phone frame -->
+    <rect x="0" y="0" width="240" height="480" rx="32" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="10" y="12" width="220" height="456" rx="24" fill="#0a0a0f"/>
+    <!-- Notch -->
+    <rect x="80" y="12" width="80" height="24" rx="12" fill="#1e293b"/>
+    <!-- Status bar -->
+    <text x="30" y="52" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280">9:41</text>
+    <text x="185" y="52" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280">●●●</text>
+
+    <!-- Header -->
+    <text x="120" y="88" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">My Streams</text>
+
+    <!-- Stream card 1 -->
+    <rect x="20" y="104" width="200" height="82" rx="12" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <text x="36" y="126" font-family="monospace" font-size="10" fill="#6b7280">STR-001</text>
+    <rect x="155" y="112" width="50" height="18" rx="9" fill="#064e3b"/>
+    <text x="180" y="124" font-family="system-ui,sans-serif" font-size="10" fill="#34d399" text-anchor="middle">Active</text>
+    <text x="36" y="148" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white">Alice M.</text>
+    <text x="36" y="168" font-family="system-ui,sans-serif" font-size="11" fill="#818cf8">10 XLM/hr</text>
+    <text x="180" y="168" font-family="system-ui,sans-serif" font-size="11" fill="#34d399" text-anchor="middle">240 XLM</text>
+
+    <!-- Stream card 2 -->
+    <rect x="20" y="198" width="200" height="82" rx="12" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <text x="36" y="220" font-family="monospace" font-size="10" fill="#6b7280">STR-002</text>
+    <rect x="155" y="206" width="50" height="18" rx="9" fill="#064e3b"/>
+    <text x="180" y="218" font-family="system-ui,sans-serif" font-size="10" fill="#34d399" text-anchor="middle">Active</text>
+    <text x="36" y="242" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white">Bob K.</text>
+    <text x="36" y="262" font-family="system-ui,sans-serif" font-size="11" fill="#818cf8">8 XLM/hr</text>
+    <text x="180" y="262" font-family="system-ui,sans-serif" font-size="11" fill="#34d399" text-anchor="middle">192 XLM</text>
+
+    <!-- Stream card 3 -->
+    <rect x="20" y="292" width="200" height="82" rx="12" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+    <text x="36" y="314" font-family="monospace" font-size="10" fill="#6b7280">STR-003</text>
+    <rect x="155" y="300" width="50" height="18" rx="9" fill="#78350f"/>
+    <text x="180" y="312" font-family="system-ui,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">Paused</text>
+    <text x="36" y="336" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="white">Carol J.</text>
+    <text x="36" y="356" font-family="system-ui,sans-serif" font-size="11" fill="#818cf8">12 XLM/hr</text>
+    <text x="180" y="356" font-family="system-ui,sans-serif" font-size="11" fill="#fbbf24" text-anchor="middle">120 XLM</text>
+
+    <!-- Tab bar -->
+    <rect x="10" y="440" width="220" height="28" rx="0" fill="#111827"/>
+    <rect x="10" y="452" width="220" height="16" rx="0" fill="#111827"/>
+    <text x="50" y="468" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Home</text>
+    <text x="120" y="468" font-family="system-ui,sans-serif" font-size="10" fill="#818cf8" text-anchor="middle">Streams</text>
+    <text x="190" y="468" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Profile</text>
+
+    <text x="120" y="540" font-family="system-ui,sans-serif" font-size="12" fill="#4b5563" text-anchor="middle">Streams Screen</text>
+  </g>
+
+  <!-- Label -->
+  <text x="400" y="580" font-family="system-ui,sans-serif" font-size="13" fill="#374151" text-anchor="middle">EuPay Mobile — iOS &amp; Android (React Native + Expo)</text>
+</svg>
