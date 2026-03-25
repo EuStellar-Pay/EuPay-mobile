@@ -4,3 +4,5 @@ export default function StreamsScreen() {
   return (<View style={styles.container}><Text style={styles.title}>My Streams</Text><FlatList data={STREAMS} keyExtractor={item => item.id} renderItem={({item}) => (<View style={styles.card}><Text style={styles.worker}>{item.worker}</Text><Text style={styles.rate}>{item.rate}</Text><Text style={[styles.status, item.status==='Active'?styles.active:styles.paused]}>{item.status}</Text></View>)} /></View>);
 }
 const styles = StyleSheet.create({ container:{flex:1,backgroundColor:'#0a0a0f',padding:16}, title:{color:'#fff',fontSize:20,fontWeight:'bold',marginBottom:16}, card:{backgroundColor:'#111827',borderRadius:12,padding:16,marginBottom:12,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}, worker:{color:'#fff',fontWeight:'600'}, rate:{color:'#818cf8'}, status:{fontSize:12,fontWeight:'600',paddingHorizontal:8,paddingVertical:3,borderRadius:20}, active:{backgroundColor:'#064e3b',color:'#34d399'}, paused:{backgroundColor:'#78350f',color:'#fbbf24'} });
+
+// TODO: wire to live contract via EuPay backend API
